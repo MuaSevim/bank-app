@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="./script.js"></script>
+    <title>Banxy</title>
+  </head>
+  <body>
+    <header class="header">
+      <p class="message">Log in to get started</p>
+      <img class="logo" src="./img/bankWhiteIcon.png" alt="Banxy Icon" />
+      <form class="login-form">
+        <input type="text" placeholder="user" class="input login--username" />
+        <input type="password" placeholder="PIN" class="input login--pin" />
+        <button class="btn-login">&rarr;</button>
+      </form>
+    </header>
+    <main class="main">
+      <div class="balance-text">
+        <h2 class="balance-title">Current Balance</h2>
+        <p class="balance-date">As of 05/03/2022</p>
+      </div>
+      <p class="balance-amount">42350€</p>
+
+      <div class="movements-container">
+        <div class="movement-row">
+          <p class="movement-type movement--withdrawal">2 Withdrawal</p>
+          <p class="movement-date">28/11/2022</p>
+          <p class="movement-amount">1330,00 €</p>
+        </div>
+      </div>
+
+      <aside class="aside">
+        <div class="summary-label">
+          <p>IN</p>
+          <p class="summary-amount success sum-in">27335 €</p>
+        </div>
+        <div class="summary-label">
+          <p>Out</p>
+          <p class="summary-amount fail sum-out">27335 €</p>
+        </div>
+        <div class="summary-label">
+          <p>Interest</p>
+          <p class="summary-amount success sum-interest">27335 €</p>
+        </div>
+        <form class="form-sort">
+          <button class="btn-sort">&darr; SORT</button>
+        </form>
+
+        <div class="actions-container">
+          <button class="btn-action btn-loan">Request Loan</button>
+          <button class="btn-action btn-transfer">Transfer Money</button>
+          <button class="btn-action btn-close">Close Account</button>
+        </div>
+
+        <div class="modal hidden">
+          <div class="modal-title-container"></div>
+          <form class="modal-form">
+            <div class="modal-form-container"></div>
+            <button class="modal-form--btn">&rarr;</button>
+          </form>
+        </div>
+
+        <div class="overlay hidden"></div>
+      </aside>
+    </main>
+  </body>
+</html>
