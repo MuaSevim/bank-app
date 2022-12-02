@@ -235,7 +235,8 @@ body {
   border: none;
   font-family: inherit;
   font-weight: 600;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
   padding: 1.2rem 3.2rem;
   border-radius: 7px;
 }
@@ -251,6 +252,11 @@ body {
 
 .btn-close {
   background-image: linear-gradient(125deg, #f87171, #fca5a5);
+}
+
+.time {
+  align-self: center;
+  font-size: 1.4rem;
 }
 
 .modal {
@@ -365,4 +371,8 @@ body {
 
 .hidden {
   display: none;
+}
+
+.timer {
+  font-weight: 600;
 }
