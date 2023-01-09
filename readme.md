@@ -4,10 +4,9 @@ A modern, minimalistic bank app created with Vanilla JavaScript and Plain CSS
 
 ## Functionality
 
-- It is not as functional as real world bank applications since I made this using only Vanilla JavaScript to practice my skills.
-- It has essential functionalities such as transfering money, requesting loan, deleting account ...
-- Datas are displayed beautifully with power of modern array methods and some magical CSS
-- This project is still in development and there is a lot more to come
+- The application has essential functionalities such as transfering money, requesting loan, entering to account, deleting the account
+- Datas are displayed beautifully with power of ES6 array methods and some magical CSS
+- The application is still in development and there is a lot more to come
 
 ## Preview
 
