@@ -10,6 +10,8 @@ A modern, minimalistic bank app created with Vanilla JavaScript and Plain CSS
 
 ## Preview
 
+You can see the live demo here: ![Overall Look](https://muasevim.github.io/bank-app/) !
+
 #### General Look
 
 ![Overall Look](./img/preview0.png)
